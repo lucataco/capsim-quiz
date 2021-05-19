@@ -22,33 +22,33 @@ To run on your machine, git clone the repo and run the client and server locally
 
 Download the project:
 
-### 'git clone https://github.com/lucataco/capsim-quiz.git'
+### `git clone https://github.com/lucataco/capsim-quiz.git`
 
 Go to the project folder:
 
-### 'cd capsim-quiz'
+### `cd capsim-quiz`
 
 Install the packages:
 
-### 'npm i'
+### `npm i`
 
 Start up the server:
 
-### 'npm start'
+### `npm start`
 
 Create the tables in the database:
 
-### 'cat dbSchela.sql | psql -U postgres'
+### `cat dbSchela.sql | psql -U postgres`
 
 Now populate the tables with the Questions and Answers for the Sample quiz
 
-### 'cat dbData.sql | psql -U postgres'
+### `cat dbData.sql | psql -U postgres`
 
 To start the client side, in a different process/tab/console window run the client:
 
-### 'cd client'
+### `cd client`
 
-### 'npm start'
+### `npm start`
 
 You should now have the React application pop up and running
 
