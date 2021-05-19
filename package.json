@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Capsim software engineering challenge",
+  "main": "index.js",
+  "engines": {
+    "node": "16.1.0",
+    "npm": "7.12.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "heroku-postbuild": "cd client && npm install && npm run build ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis C.",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
